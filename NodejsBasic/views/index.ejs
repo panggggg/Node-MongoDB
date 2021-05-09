@@ -5,16 +5,16 @@
   <title>
     <%= title %>
   </title>
-  <link rel='stylesheet' href='/stylesheets/style.css' />
 </head>
 
 <body>
-  <h1>
-    <%= title %>
-  </h1>
-  <p>Welcome to <%= title %>
-  </p>
-  <h2>Pang Pawornwan</h2>
+  <%- include layout %>
+    <div class="container">
+      <h1>Welcome to Blog
+      </h1>
+      <h2>Pang Pawornwan</h2>
+      <a href="/blog">อ่านบทความ</a>
+    </div>
 </body>
 
 </html>
